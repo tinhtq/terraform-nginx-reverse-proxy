@@ -28,7 +28,9 @@ variable "identity_location" {}
 # # EXISTING RESOURCES
 variable "subnet_id" {}
 variable "vpc_id" {} 
-variable "allowed_ip" {}
+variable "allowed_ip" { 
+  default = ["0.0.0.0/0"]
+}
 resource "aws_key_pair" "example" {
   key_name   = "exampledocumentdb"
   public_key = file("/mnt/c/Users/Admin/Documents/nginx/.ssh/id_rsa.pub")
