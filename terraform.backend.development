@@ -1,0 +1,4 @@
+bucket  = "terraform-devthenet" 
+key     = "env/nginx-reverse/terraform.tfstate"
+region  = "us-west-2"
+profile = "yplabs" 

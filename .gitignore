@@ -1,0 +1,8 @@
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+ec2.tf
+keypair.tf
+.ssh/id_rsa
+.ssh/id_rsa.pub
